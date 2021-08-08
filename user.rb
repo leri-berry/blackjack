@@ -1,7 +1,7 @@
 class User
-	def initialize(name)
-		@name = name
-		@bank = 100
-		@card = []
-	end
+  def initialize(name)
+    @name = name
+    @bank = bank
+    @card = []
+  end
 end
