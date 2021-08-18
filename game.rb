@@ -135,10 +135,6 @@ class Game
     @interface.show_cards(@player, @dealer)
   end
 
-  def money_ended?
-    @player.bank == 0 || @dealer.bank == 0
-  end
-
   def full?
     @player.full_hand? && @dealer.full_hand?
   end
@@ -156,4 +152,5 @@ class Game
     end
   end
 end
+
 Game.new.start_game
