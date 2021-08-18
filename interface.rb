@@ -46,7 +46,7 @@ class Interface
     puts 'Дилер пропускает ход'
   end
 
-  def dealer_takeing_card
+  def dealer_taking_card
     puts 'Дилер берет карту'
   end
 
